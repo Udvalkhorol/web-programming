@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> </title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+    </div>
+    <div class="content">
+      <div class="aside"></div>
+      <div class="article">
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="image"></div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>
+	</body>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      background-color: grey; 
+    }
+    .header {
+      width: 100%;
+      height: 15%;
+      background-color: aqua;
+      margin-bottom: 30px;
+    }
+    .content {
+      display: flex;
+      width: 100%;
+      height: 70%;
+      justify-content: space-between;
+    }
+    .footer {
+      width: 100%;
+      height: 15%;
+      background-color: aqua;
+      margin-top: 30px;
+    }
+    .aside {
+      width: 30%;
+      height: 100%;
+     background-color: green;
+    }
+    .article {
+      display: flex;
+      width: 65%;
+      height: 100%;
+      background-color: orange;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+    .image {
+      width: 25%;
+      height: 35%;
+      background-color:burlywood;
+     margin: 30px;
+    }
+
+  </style>
+</html>
